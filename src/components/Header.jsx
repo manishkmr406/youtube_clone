@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import ytLogo from "../images/yt-logo.png";
-import ytLogoMobile from "../images/yt-logo-mobile.png";
+import ytLogo from "../images/._yt-logo.png";
+import ytLogoMobile from "../images/._yt-logo-mobile.png";
 
 import { SlMenu } from "react-icons/sl";
 import { IoIosSearch } from "react-icons/io";
@@ -93,7 +93,10 @@ const Header = () => {
           </div>
         </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-          <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" />
+          <img
+            src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
